@@ -1,0 +1,237 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    position: fixed;
+    z-index: 2;
+    top: 0vh;
+    background-color: rgba(255,255,255,0.95);
+    width: 100vw;
+    padding: 2vh 2vh;
+}
+.icon-bars {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 3em;
+    transition-duration: 1s;
+}
+
+.rotate {
+    transform: rotate(90deg);
+    transition-duration: 1s;
+}
+
+.nav-drop {
+    display: none;
+    z-index: 3;
+    width: 100%;
+    padding: 0px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.nav-drop li {
+    display: block;
+    color:mediumslateblue;    
+    font-size: 2.5em;
+    height: 3vh;
+    list-style: none;
+    padding: 2vh 0px;
+    width: 100%; 
+}
+
+.nav-drop li a {
+    color:mediumslateblue;    
+
+    text-decoration: none;
+    width: 100%;
+}
+
+#logo {
+    float: right;
+    color: mediumslateblue;
+    font-size: 3.5em;
+    padding: 0px 7vw;
+}
+
+.your-class {
+    margin: 18vh auto;
+    background-color: mediumslateblue;
+    color: white;
+    height: 50vh;
+    width: 90vw;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 25vh;
+    margin: 4vh auto;
+}
+
+.baby-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42vw;
+    height: 20vh;
+    color: white;
+    background-color: mediumslateblue;
+    font-size: 3em;
+}
+
+#mission-statement {
+    margin: 20vh auto;
+    width: 65vw;
+    text-align: center;
+    color: mediumslateblue;
+    font-size: 2.5em;
+}
+
+#insta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw; 
+    height: 50vh;
+    background-color: lavender;
+}
+
+#instaTag {
+    font-size: 2.5em;
+    color: mediumslateblue;
+}
+
+#instaParagraph {
+    width: 60%;
+    font-size: 1.5em;
+    color: mediumslateblue;
+}
+
+#gallery-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 8vh;
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+legend {
+    font-size: 3.5em;
+    padding-bottom: 2vh;
+}
+#form-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: mediumslateblue;
+   
+}
+form {
+    width: 90%;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding-bottom: 5vh;
+    
+}
+
+label b {
+    padding-bottom: 1vh;
+}
+input {
+    width: 80%;
+    height: 4vh;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: lavender;
+}
+textarea {
+    height: 15vh;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: lavender;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 8vh;
+    background-color: white;
+    color: mediumslateblue;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#mailingList {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: mediumslateblue;
+}
+
+#newsHeader {
+    font-size: 2.5em;
+}
+
+#newsInput {
+    width: 60vw;
+}
+
+#newsButton {
+    background-color: mediumslateblue;
+    color:white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: mediumslateblue;
+    color: white;
+    width: 100vw;
+    height: 40vh;
+    font-size: 1.5em;
+}
+.footerContainer div {
+    display: inline-block;
+    font-size: 2em;
+}
+.footerContainer {
+    display: inline-block;
+    width: 30%; 
+}
