@@ -8,7 +8,9 @@ $(document).ready(function(){
     fade: true,
     cssEase: 'linear',
     arrows: true,
-    swipe: true
+    swipe: true,
+    swipeToSlide: true,
+    touchMove: true
   });
 });
 
