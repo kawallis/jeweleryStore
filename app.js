@@ -5,15 +5,10 @@ $(document).ready(function(){
     dots: true,
     infinite: true,
     speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true
   });
 });
 
+// Handlers for the navbar
 $('.icon-bars').on('click', function(event){
   $('.icon-bars').toggleClass('rotate');
   $('.nav-drop').toggle('slow');
@@ -30,5 +25,15 @@ $('.anchorLink').on('click', function(event){
   $('html, body').animate({
     scrollTop: offset.top
   }, 800);
+});
 
+// Simple Cart code
+
+simpleCart({
+  checkout: {
+    type: 'PayPal' ,
+    email: 'wallaccm@email.sc.edu'
+  },
+  tax: 		0.075,
+  currency: 	'USD'
 });
