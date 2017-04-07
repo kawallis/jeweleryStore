@@ -3,47 +3,35 @@
 <head>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="font/styles.css">
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="OwlCarousel/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <title>Chamber's Design</title>
 </head>
 <body>
     <a id="linktotop"></a>
-    <nav>    
+    <p>oop</p>
+    <nav> 
         <h2 id="logo">SCD</h2>
-        <div class="simpleCart_shipping"></div>
+        <div class="icon-cart-plus"></div>    
         <div class="icon-bars"></div>
         <ul class="nav-drop">
-                <li><a href="#linktotop" class="anchorLink">Home</a></li>
-                <li><a href="#about" class="anchorLink">About</a></li>
-                <li><a href="#contact" class="anchorLink">Contact</a></li>
-                <li><a href="#Newsletter" class="anchorLink">Newsletter</a></li>
-            </ul>
+            <li><a href="#linktotop" class="anchorLink">Home</a></li>
+            <li><a href="#products" class="anchorLink">Products</a></li>
+            <li><a href="#about" class="anchorLink">About</a></li>
+            <li><a href="#contact" class="anchorLink">Contact</a></li>
+            <li><a href="#Newsletter" class="anchorLink">Newsletter</a></li>
+        </ul>
     </nav>
-    
-    <div class="your-class">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+    <div class="owl-carousel">
+        <div><a href="http://placehold.it"><img src="http://placehold.it/350x415" class="placeholder"></a></div>
+        <div><a href="http://placehold.it"><img src="http://placehold.it/350x415" ></a></div>
+        <div><a href="http://placehold.it"><img src="http://placehold.it/350x415"></a></div>
     </div>
     <div class="container-one">
-        <div class="baby-box">
-            <h2>Products</h2>
-        </div>
-        <div class="baby-box">
-            <h2>Gallery</h2>
-        </div>
-    </div>
-    <div class="container-one">
-        <div class="baby-box">
-            <h2>Contact</h2>
-        </div>
-        <div class="baby-box">
-            <h2>About</h2>
-            <a id="about"></a>
-        </div>
+        <h2>Gallery</h2>
+        <a id="products"></a>
     </div>
     <!--SImpleCart items -->
     <div class="simpleCart_shelfItem">
@@ -82,7 +70,7 @@
 	    <span class="item_price">$35.99</span>
 		<a class="item_add" href="javascript:;"> Add to Cart </a>
 	</div>
-
+    <a id="about"></a>
     <div id="mission-statement">
         <p id="mission-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
@@ -155,12 +143,17 @@
             <p>Copyright © 2017 Susan Chambers Studio and All Rights Reserved.</p>
         </div>
     </footer>
+    <!--<div id="cart-container">
+        <div id="cart-box">
+            <div class="simpleCart_items"></div>
+        </div>
+    </div>-->
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
     <script src="simpleCart/simpleCart.min.js"></script>  
-    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+    <script type="text/javascript" src="OwlCarousel/dist/owl.carousel.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

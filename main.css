@@ -3,7 +3,7 @@
 }
 nav {
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     top: 0vh;
     background-color: rgba(255,255,255,0.95);
     width: 100vw;
@@ -30,7 +30,7 @@ nav {
 .nav-drop {
     display: none;
     z-index: 3;
-    width: 100%;
+    width: 100vw;
     padding: 0px;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -42,12 +42,11 @@ nav {
     height: 3vh;
     list-style: none;
     padding: 2vh 0px;
-    width: 100%; 
+    width: 90%; 
 }
 
 .nav-drop li a {
     color:mediumslateblue;    
-
     text-decoration: none;
     width: 100%;
 }
@@ -59,32 +58,27 @@ nav {
     padding: 0px 7vw;
 }
 
-.your-class {
-    margin: 18vh auto;
+.owl-carousel {
+    margin: 14vh auto;
+    margin-bottom: 0vh;
     background-color: mediumslateblue;
     color: white;
-    height: 50vh;
+    height: 60vh;
     width: 90vw;
 }
+
 
 .container-one {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 90vw;
-    height: 25vh;
-    margin: 8vh auto;
-}
-
-.baby-box {
-    display: flex;
     align-items: center;
     justify-content: center;
-    width: 42vw;
+    align-items: center;
+    width: 90vw;
     height: 20vh;
-    color: white;
+    margin: 2vh auto;
     background-color: mediumslateblue;
+    text-decoration: none;
+    color: white;
     font-size: 3em;
 }
 
@@ -259,6 +253,7 @@ footer {
     width: 15vw;
     text-align: center;
     font-size: 2em;
+    color: mediumslateblue;
 }
 .item_price {
     color: mediumslateblue;
@@ -275,3 +270,33 @@ footer {
     width: 30vw;
     text-decoration: none;
 }
+
+ .icon-cart-plus {
+     font-size: 5em;
+     color: mediumslateblue;
+     display: inline-block;
+     float: right;
+     padding-top: 2vh;
+ }
+
+ /*#cart-container {
+     width: 100vw;
+     height: 100vh;
+     z-index: 2;
+     display: none;
+     background-color: rgba(255,255,255,0.95);
+     position: fixed;
+     top: 0px;
+ }
+
+ #cart-box {
+     width: 80vw;
+     height: 60vh;
+     z-index: 3;
+     border: 4px solid mediumslateblue;
+     margin: 20vh auto;
+     background-color: white;
+ }
+ .simpleCart_items {
+     font-size: 2em;
+ }*/

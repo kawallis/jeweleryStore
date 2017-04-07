@@ -1,10 +1,23 @@
 'use strict';
 
 $(document).ready(function(){
-  $('.your-class').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    touchDrag:true,
+    MouseDrag:true,
+    // nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:5
+      }
+    }
   });
 });
 
@@ -37,3 +50,7 @@ simpleCart({
   tax: 		0.075,
   currency: 	'USD'
 });
+
+// $('.icon-cart-plus').on('click',function(event){
+//   $('#cart-container').show();
+// });
